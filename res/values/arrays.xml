@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences Update Time -->
+    <string-array name="pref_time_options">
+        <item>10 sec *for testing*</item>
+        <item>1 hour</item>
+        <item>4 hours</item>
+        <item>Once a day</item>
+    </string-array>
+    
+    <string-array name="pref_time_values">
+        <item>10</item>
+        <item>3600</item>
+        <item>14400</item>
+        <item>86400</item>
+    </string-array>
+
+    <!-- Preferences maximum number of items -->
+    <string-array name="pref_maximum_number">
+        <item>10</item>
+        <item>20</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="pref_maximum_number_values">
+        <item>10</item>
+        <item>20</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:key="CHANGE_FEED"
+        android:summary="Delete all cached items and change feed URL"
+        android:title="Change feed URL" >
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="Feed updates" >
+        <CheckBoxPreference
+            android:key="AUTO_UPDATE"
+            android:summary="@string/pref_summary_auto_update"
+            android:defaultValue="false"
+            android:title="@string/pref_title_auto_update" />
+
+        <ListPreference
+            android:defaultValue="20"
+            android:dependency="AUTO_UPDATE"
+            android:dialogTitle="@string/pref_title_auto_update_interval"
+            android:entries="@array/pref_time_options"
+            android:entryValues="@array/pref_time_values"
+            android:key="TIME_INTERVAL"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="@string/pref_summary_auto_update_interval"
+            android:title="@string/pref_title_auto_update_interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Data usage" >
+        <PreferenceScreen
+            android:key="CLEAN_CACHE"
+            android:summary="@string/pref_summary_clean_cache"
+            android:title="@string/pref_title_clean_cache" >
+        </PreferenceScreen>
+
+        <ListPreference
+            android:defaultValue="20"
+            android:dialogTitle="@string/pref_title_number_items"
+            android:entries="@array/pref_maximum_number"
+            android:entryValues="@array/pref_maximum_number_values"
+            android:key="NUMBER_ITEMS"
+            android:summary="@string/pref_summary_number_items"
+            android:title="@string/pref_title_number_items" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

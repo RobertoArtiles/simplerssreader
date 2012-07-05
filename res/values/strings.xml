@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSS Reader</string>
+	
+	<!-- ERROR MESSAGES -->
+	<string name="add_feed_empty_url">Pls, enter the RSS URL</string>
+	<string name="add_feed_invalid_url">Pls, enter a valid RSS URL</string>
+	<string name="feedlist_button_retry">Retry</string>
+	<string name="feedlist_button_cancel">Cancel</string>
+	
+	<!-- AddFeedFragment -->
+	<string name="fragment_add_feed_title">Please enter RSS feed URL</string>
+	<string name="fragment_feedlist_empty">Feed is empty</string>
+	<string name="fragment_addfeed_submit">Subscribe</string>
+	<string name="feedlist_error_title">Error</string>
+	
+	<!-- Preferences -->
+	<string name="pref_">Please enter RSS feed URL</string>
+	<string name="pref_title_auto_update">Automatically update</string>
+	<string name="pref_summary_auto_update">Allow automatically update feed</string>
+	<string name="pref_title_auto_update_interval">Time interval</string>
+	<string name="pref_summary_auto_update_interval">Time interval between the last update and automatic</string>
+	<string name="pref_title_clean_cache">Clean cache</string>
+	<string name="pref_summary_clean_cache">Delete all saved items</string>
+	<string name="pref_title_number_items">Maximum number of items</string>
+	<string name="pref_summary_number_items">Other items will be deleted</string>
+	<string name="pref_deleting_message">Deleting, please wait</string>
+	
+</resources>

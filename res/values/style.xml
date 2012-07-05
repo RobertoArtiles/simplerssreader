@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RssReaderTheme" parent="Theme.Sherlock.Light">
+        <item name="android:typeface">serif</item>
+        <item name="android:actionBarStyle">@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse</item>
+        <item name="android:windowBackground">@color/theme_primary</item>
+        <item name="android:buttonStyle">@style/RssReaderTheme.SimpleButton</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse</item>
+    </style>
+
+    <style name="RssReaderTheme.TitleText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="RssReaderTheme.OrdinaryText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_ordinary</item>
+        <item name="android:textSize">@dimen/text_ordinary</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="RssReaderTheme.SmallText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="RssReaderTheme.SimpleButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/simple_button_selector</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="RssReaderTheme.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text_style_enable</item>
+    </style>
+
+</resources>

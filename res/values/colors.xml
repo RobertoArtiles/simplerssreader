@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color Theme -->
+    <color name="theme_primary">#F2E1AC</color>
+    <color name="theme_secondary_light">#63A69F</color>
+    <color name="theme_secondary_dark">#1A949F</color>
+    <color name="theme_tertiary">#F2836B</color>
+    <color name="theme_quarternary">#F2594B</color>
+    
+    <!-- Text -->
+    <color name="text_title">#000000</color>
+    <color name="text_ordinary">#000000</color>
+</resources>
